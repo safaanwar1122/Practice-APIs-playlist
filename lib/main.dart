@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'get_api.dart';
+import 'get_comments_model_api.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,11 +16,11 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-primarySwatch: Colors.teal,
-       useMaterial3: true,
+        primarySwatch: Colors.teal,
+        useMaterial3: true,
       ),
-      home: const GetApiScreen (),
+      home: const GetCommentsModelApiScreen(),
+      // home: const GetApiScreen (),
     );
   }
 }
-
