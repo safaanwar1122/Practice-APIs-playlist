@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:practice_apis/photos_api_screen.dart';
 
 import 'get_api.dart';
 import 'get_comments_model_api.dart';
@@ -19,7 +20,8 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.teal,
         useMaterial3: true,
       ),
-      home: const GetCommentsModelApiScreen(),
+      home:  PhotosAPIScreen(),
+      //const GetCommentsModelApiScreen(),
       // home: const GetApiScreen (),
     );
   }
